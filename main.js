@@ -53,7 +53,7 @@ dom.each(dom.children(t), (n)=> dom.style(n, 'color', 'red'))
 console.log(dom.index(s2))
 
 
-// ------------
+// ---------
 console.log('------')
 const div2 = dom2.find('#test2>.red')[0] // 获取对应的元素
 dom2.style(div2, 'color', 'yellow') // 设置 div.style.color

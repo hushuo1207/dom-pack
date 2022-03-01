@@ -141,23 +141,6 @@ window.dom = {
 
 
 
-window.dom2 = {
-  find(string){
-    return document.querySelectorAll(string)
-  },
-  style(node, name, value){
-    return node.style[name] = value
-  },
-  each(nodeList, fn){
-    for(let i=0;i<nodeList.length;i++){
-      fn.call(null, nodeList[i])
-    }
-  }
-}
-
-
-
-
 
 
 
